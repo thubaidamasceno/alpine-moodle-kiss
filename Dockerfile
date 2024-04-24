@@ -20,8 +20,8 @@ USER nobody
 
 # Change MOODLE_XX_STABLE for new versions
 ENV MOODLE_URL=https://github.com/moodle/moodle/archive/MOODLE_403_STABLE.tar.gz \
-    LANG=en_US.UTF-8 \
-    LANGUAGE=en_US:en \
+    LANG=pt_BR.UTF-8 \
+    LANGUAGE=pt_BR:br \
     SITE_URL=http://localhost \
     DB_TYPE=pgsql \
     DB_HOST=postgres \
